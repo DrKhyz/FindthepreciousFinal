@@ -27,12 +27,12 @@ p{
 }
 
 h3 em, h4 em{
-	font-family: Tengwar;
+	font-family: "Tengwar";
 	color: #ff5f01;
 }
 
 h2, h3, h4, h5{
-	font-family: Aniron;
+	font-family: "Aniron";
 	font-weight: bold;
 	text-align: center;	text-align: center;
 
