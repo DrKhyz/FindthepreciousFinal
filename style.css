@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'Aniron';
+    src: url('font-title/anirm___.ttf');
+}
+
+@font-face {
+    font-family: 'Party';
+    src: url('font-text/partybusiness.ttf');
+}
+
+@font-face{
+	font-family: 'Tengwar';
+	src: url('font-spec/tngan.ttf');
+}
+
+.body, p, small, div{
+	font-family: Party;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+.carousel-caption{
+	font-size:5em;
+	top: 40%;
+}
+
+h3 em, h4 em{
+	font-family: Tengwar;
+	color: #ff5f01;
+}
+
+h2, h3, h4, h5{
+	font-family: Aniron;
+	font-weight: bold;
+	text-align: center;	text-align: center;
+
+}
+
+.navbar{
+	background-color: #ff5f01;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+	font-family: Aniron;
+	font-size: 1em;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+.card-img-overlay{
+	padding-top: 0.5rem;
+	background-color: rgba(255,255,255,0.3);
+}
+
+.card-fellow{
+	border : 4px black solid;
+	padding: 0;
+}
+
+.card-img-overlay .card-text{
+	background-color: rgba(255,255,255, 0.5);
+	border-radius: 10px;
+	text-align: center;
+	font-size: 170%;
+	height: 30%;
+}
+
+.card-text em{
+	color: coral;
+	font-weight: bold;
+}
+
+.card-title-fellow{
+	font-family: Party;
+	font-size: 3em;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	color: white;
+	bottom: 10px;
+	margin-top: 40%;
+}
+
+.card-body-fellow{
+	background-color: black;
+	color: white;
+	font-size: 2em;
+}
+
+.card-text-fellow{
+	font-size: 1em;
+}
+
+.card-img-overlay:hover{
+	background-color: rgba(255,255,255,0);
+}
+
+.card-img-overlay:hover .card-text{
+	display: none;
+}
+
+.card-img-overlay:hover .card-title{
+	margin-top: 90%;
+	font-size: 1.5em;
+}
+
+@media screen and (max-width: 575px){
+	.card-text{
+		font-size: 180%;
+	}
+
+	.card-title-fellow{
+		font-size: 2.5em;
+	}
+
+	.card-img-overlay:hover .card-title{
+		font-size: 1.5em;
+	}
+}
+
+.media-body{
+	padding: 6px;
+}
+
+#captured{
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+#fellows{
+	background-image: url('images/bg_light.png');
+	padding: 10px;
+}
+
+#fellows .badge{
+	color: grey;
+}
+
+#fellows .badge em{
+	opacity: 0;
+}
+
+#fellows .badge:hover em{
+	opacity: 1;
+}
+
+.lt{
+	text-decoration: line-through #ff5f01;
+}
+
+#fellows .badge:hover{
+	color: #ff5f01;
+}
+
+#contact-btn{
+	color: #ff5f01;
+	font-size: 1.5em;
+}
+
+#best{
+	background-image: url('images/bg_light.png');
+}
+
+#about{
+	background-color: black;
+	color: white;
+}
+
+#join{
+	background-image: url('images/bg_light.png');
+}
+
+#contact{
+	background-color: black;
+	color: white;
+}
+
+.cit{
+	text-align: right;
+	width: 100%;
+	color: grey;
+}
+
+section{
+	padding: 20px;
+}
+
+.hunter-name{
+	font-size: 2em;
+	color: #ff5f01
+}
+
+.card-header-about{
+	background-color: #ff5f01;
+}
+
+.footer{
+	background-color: #ff5f01;
+	color: white;
+	font-size: 1em;
+}
+
+.footer-link{
+	list-style-type: none;
+	padding: 10px;
+}
+
+.footer-link a{
+	color: white;
+	font-family: Aniron;
+}
+
+.card-about{
+	border-bottom: 3px #ff5f01 solid;
+}
+
+.card-body-about{
+	color: black;
+	font-size: 1.5em;
+}
+
+.btn-sauron{
+	background-color: black;
+	color: #ff5f01;
+	font-family: Aniron;
+	padding: 10px;
+}
+
+.text-sauron{
+	font-family: Aniron;
+	color: #ff5f01;
+}
